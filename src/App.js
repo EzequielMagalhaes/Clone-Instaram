@@ -5,9 +5,8 @@ import {useEffect,useState} from 'react';
 import Header from './Header.js';
 
 function App() {
-  const [user,setUser] = useState('Teste');
+  const [user,setUser] = useState();
   useEffect(()=>{
-    console.log(fbDatabase);
   });
 
   return (
